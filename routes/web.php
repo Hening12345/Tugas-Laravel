@@ -11,7 +11,10 @@ use App\Http\Controllers\CompanyController;
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider and all of them will
 | be assigned to the "web" middleware group. Make something great!
-|
+| 
+
+Hening Rifqi Putro P [202169040080]
+
 */
 
 Route::get('/', function () {

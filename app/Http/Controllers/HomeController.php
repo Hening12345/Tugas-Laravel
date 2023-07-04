@@ -42,12 +42,12 @@ class HomeController extends Controller
 
     public function show(Company $company)
     {
-        return view('dashboard',compact('company'));
+        return view('dashboard', compact('company'));
     }
 
     public function edit(Company $company)
     {
-        return view('pages.edit',compact('company'));
+        return view('pages.edit', compact('company'));
     }
 
     public function update(Request $request, Company $company)
